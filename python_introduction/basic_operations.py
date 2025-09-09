@@ -1,8 +1,8 @@
-number1=10
-number2=5
-results_1=number1+number2
-results_2=number1-number2
-results_3=number1*number2
-print(f"Addition of {number1} and {number2} is {results_1}")
-print(f"Subtraction of {number1} and {number2} is {results_2}")
-print(f"Multiplication of {number1} and {number2} is {results_3}")
+number1 = 10
+number2 = 5
+add_result = number1 + number2
+sub_result = number1 - number2
+mult_result = number1 * number2
+print(f"Addition of {number1} and {number2} is {add_result}")
+print(f"Subtraction of {number1} and {number2} is {sub_result}")
+print(f"Multiplication of {number1} and {number2} is {mult_result}")
