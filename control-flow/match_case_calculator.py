@@ -6,19 +6,19 @@ result = 0
 match operation:
     case "+":
         result = num1 + num2
-        print(f"Result is {result}")
+        print(f"The result is {result}")
     case "-":
         result = num1 - num2
-        print(f"Result is {result}")
+        print(f"The result is {result}")
     case "*":
         result = num1 * num2
-        print(f"Result is {result}")
+        print(f"The result is {result}")
     case "/":
         if num2 == 0 :
             print("Zero may cause a problem during operation.")
         else:
             result = num1 / num2
-            print(f"Result is {result}")
+            print(f"The result is {result}")
     case _:
         print("Sorry, this operation is not recognized")     
         
