@@ -1,4 +1,4 @@
-task_description = input("Enter a your task: ")
+task_description = input("Enter your task:")
 task_priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
 
