@@ -56,7 +56,7 @@ class TestSimpleCalculator(unittest.TestCase):
     # Test Cases for MULTIPLICATION
     # ---------------------------
 
-    def test_multiply(self):
+    def test_multiplication(self):
         """Test multiplication with two positive integers."""
         self.assertEqual(self.calc.multiply(3, 4), 12)
         self.assertEqual(self.calc.multiply(10, 10), 100)
@@ -74,7 +74,7 @@ class TestSimpleCalculator(unittest.TestCase):
     # Test Cases for DIVISION
     # ---------------------------
 
-    def test_divide(self):
+    def test_dividision(self):
         """Test division of two positive integers resulting in a float."""
         self.assertEqual(self.calc.divide(10, 2), 5.0)
         self.assertEqual(self.calc.divide(10, 4), 2.5)
