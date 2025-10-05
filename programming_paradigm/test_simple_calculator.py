@@ -74,7 +74,7 @@ class TestSimpleCalculator(unittest.TestCase):
     # Test Cases for DIVISION
     # ---------------------------
 
-    def test_dividision(self):
+    def test_division(self):
         """Test division of two positive integers resulting in a float."""
         self.assertEqual(self.calc.divide(10, 2), 5.0)
         self.assertEqual(self.calc.divide(10, 4), 2.5)
