@@ -1,6 +1,6 @@
 # robust_division_calculator.py
 
-def safe_divide(numerator_str, denominator_str):
+def safe_divide(numerator, denominator):
     """
     Performs division, robustly handling ZeroDivisionError and ValueError 
     for non-numeric inputs.
@@ -14,8 +14,8 @@ def safe_divide(numerator_str, denominator_str):
     """
     try:
         # Attempt to convert the string arguments to floats.
-        numerator = float(numerator_str)
-        denominator = float(denominator_str)
+        numerator = float(numerator)
+        denominator = float(denominator)
         
     except ValueError:
         # Catches cases where one or both arguments cannot be converted to a float (non-numeric).
